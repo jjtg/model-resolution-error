@@ -1,0 +1,12 @@
+- model: User
+  rows:
+    - _id: smith
+      username: smith
+      email: john@smith.com
+      password: john1234
+      created_at: '{{ now }}'
+    - _id: doe
+      username: doe
+      email: john@doe.com
+      password: john1234
+      created_at: '{{ now }}'
